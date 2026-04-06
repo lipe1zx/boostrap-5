@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Nexus Dev Shop | Hardware para Full Stack</title>
+    <style>
+        .news-placeholder::placeholder{
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body id="topo" class="bg-black text-white">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark  bg-dark py-3">
+  <div class="container">
+    <a class="navbar-brand text-info fw-bold fs-3" href="#topo">
+        <i class="bi bi-terminal-fill me-2"></i>
+        NEXUS <span class="text-white">DEV SHOP</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto gap-3 fw-medium">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Produtos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Depoimentos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-info text-white fw-medium " href="#"> 
+        <i class="bi bi-cart3 me-2 shadow-sn"></i> Carrinho
+        </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main class="my-5">
+        <section id="hero">
+           <div id="hero-carrossel" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#hero-carrossel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#hero-carrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#hero-carrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1593640495371-1f7ddf3dedf6?q=80&w=2070" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?q=80&w=2070" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1696710257827-75e2e5954059?q=80&w=2070" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#hero-carrossel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#hero-carrossel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        </section>
+    </main>
+
+    <footer class="bg-black bg-gradient text-secondary py-5 border-top border-secondary text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h5 class="text-info fw-bold mb-4">Newslatter Nexus Dev Shop</h5>
+                    <p class="small">Receba as novidades de Hardware diretamente no seu e-mail!</p>
+                    <div class="input-group">
+                        <input type="email" name="email" id="email" class="form-control bg-dark border-secondary text-white news-placeholder" placeholder="Digite seu e-mail">
+                        <button class="btn btn-outline-info text-white fw-medium px-4">Assinar</button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="text-white fx-medium mb-4">Mapa do Site</h5>
+                    <ul class="list-unstyled d-grip gap-2 small">
+                        <li><a href="" class="text-secondary text-decoration-none">Início</a></li>
+                        <li><a href="" class="text-secondary text-decoration-none">Produtos</a></li>
+                        <li><a href="" class="text-secondary text-decoration-none">Sobre Nós</a></li>
+                    </ul>
+                </div>
+                 <div class="col-lg-4">
+                    <h5 class="text-white fx-medium mb-4 ">Onde Estamos</h5>
+                    <p class="small">
+                        <i class="bi bi-geo-alt-fill me-2 text-info"></i>
+                        Av. CDC, Edificio 67.
+                    </p>
+                    <p class="small">
+                        <i class="bi bi-envelope-fill me-2 text-info"></i>
+                        contato@nexusdevshop67.com.br
+                    </p>
+                    <p>
+                        <i class="bi bi-telephone-fill me-2 text-info"></i>
+                        65 9 9967-6767
+                    </p>
+                 </div>
+                 <hr class="boprder-secondary my-5 opacity-25">
+                 <p class="text-center small mb-0">
+                    &copy; 2026 Nexus Dev Shop. Todos os direitos reservados. Desenvolvido por <a href="https://github.com/lipe1zx" target="_blank" class="text-info text-decoration-none">Lipe</a>
+                 </p>
+             </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
