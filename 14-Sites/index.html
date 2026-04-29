@@ -25,6 +25,21 @@
     .news-placeholder::placeholder{
       color: #6c757d;
     }
+    .instagram-icon:hover{
+      background: linear-gradient(45deg, #fcaf45,#f58529,#dd2d7b,#8134af,#515bd4)!important;
+      -webkit-background-clip: text !important;
+      background-clip: text !important;
+      color: transparent !important;
+      transition: 0.3s !important;
+    }
+    .facebook-icon:hover{
+      color: #1877f2 !important;
+      transition:0.3s;
+    }
+    .linkedin-icon:hover{
+      color: #0a66c2 !important;
+      transition: 0.3s !important;
+    }
   </style>
 </head>
 <body id="topo" class="bg-black text-white position-relative">
@@ -503,6 +518,126 @@
 
       </div>
     </section>
+<!--Seção de contato-->
+    <section id="contato" class="min-vh-100 bg-black d-flex align-items-center py-5 border-top border-secondary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <h2 class="display-5 fw-bold text-white mb-4">
+              Vamos <span class="text-info">Conversar?</span>
+            </h2>
+            <p class="lead text-secondary">
+              Dúvidas técnicas ou orçamento para sua empresa: Entre em contato com o time Nexus Dev Shop.
+            </p>
+            <div class="vstack gap-4">
+              <a 
+              href="https://wa.me/5565981337987" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="d-flex align-items-center text-decoration-none text-white"
+              >
+              <i class="bi bi-whatsapp fs-2 text-success"></i>
+              <div class="">
+                <h6 class="fw-bold mb-0">WhatsApp</h6>
+                <span class="text-secondary small">(65) 98133-7987</span>
+              </div>
+              <a 
+              href="mailto:contato@nexusdevshop.com.br" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="d-flex align-items-center text-decoration-none text-white"
+              >
+              <i class="bi bi-envelope-fill fs-2 text-info"></i>
+              <div class="">
+                <h6 class="fw-bold mb-0">Email técnico</h6>
+                <span class="text-secondary small">contato@nexusdevshop.com.br</span>
+              </div>
+            </a>
+            <div>
+              <h6 class="text-uppercase text-info fw-bold small mb-3">Minha Presença Digital</h6>
+              <div class="d-flex gap-4">
+                <a 
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-secondary fs-3 shadow-sm instagram-icon"
+                  title="Instagram"
+                >
+                <i class="bi bi-instagram"></i>
+              </a>
+                <a
+                 href="http://facebook.com" 
+                 target="_blank" 
+                 rel="noopener noreferrer"                  
+                 class="text-secondary fs-3 shadow-sm facebook-icon"
+                 title="Facebook"
+                 >
+                 <i class="bi bi-facebook "></i>
+                </a>
+                <a 
+                href="http://linkedin.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="text-secondary fs-3 shadow-sm linkedin-icon"
+                title="Linkedin"
+                >
+                <i class="bi bi-linkedin "></i>
+              </a>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="bg-black bg-gradient p-5 rounded-4 shadow-lg border border-secondary text-white">
+              <form action="" class="row">
+                <div class="col-md-6">
+                  <label for="Nome" class="form-label small text-secondary fw-bold">
+                    Nome Completo
+                  </label>
+                  <input 
+                  type="text" 
+                  name="nome" 
+                  id="nome"
+                  class="form-control bg-dark border-secondary text-white py-3 news-placeholder"
+                  placeholder="Digite seu Nome"
+                  >
+                </div>
+                <div class="col-md-6">
+                  <label for="Email" class="form-label small text-secondary fw-bold">
+                    Email
+                  </label>
+                  <input 
+                  type="text" 
+                  name="email" 
+                  id="email"
+                  class="form-control bg-dark border-secondary text-white py-3 news-placeholder"
+                  placeholder="Digite seu Email"
+                  >
+                </div>
+                <div class="col-12">
+                  <label for="Mensagem" class="form-label small text-secondary fw-bold">
+                  Mensagem
+                  </label>
+                  <textarea 
+                    name="mensagem" 
+                    id="mensagem" 
+                    rows="10"
+                    placeholder="Digite sua Mensagem"
+                    class="form-control bg-dark border-secondary text-white news-placeholder"
+                    >
+                  </textarea>
+                  <div class="col-12 mt-4">
+                    <button class="btn btn-outline-info w-100 fw-bold text-white py-3 shadow-lg fs-5">
+                      <i class="bi bi-send-fill me-2"></i>Enviar Mensagem
+                    </button>
+                </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <!-- Footer -->
@@ -556,7 +691,7 @@
       <hr class="border-secondary my-5 opacity-25">
       <p class="text-center small mb-0">
         &copy; 2026 Nexus Dev Shop. Todos os direitos reservados. Desenvolvido por 
-        <a href="https://github.com/carlitos-bit" target="_blank" class="text-info text-decoration-none">Carlitos</a>.
+        <a href="https://github.com/lipe1x" target="_blank" class="text-info text-decoration-none">lipe</a>.
       </p>
     </div>
   </footer>
